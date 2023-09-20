@@ -140,6 +140,16 @@ data_fast = [
         ]
     },
     {
+        title: "Enter/exit vehicle",
+        icon: "cartwheel",
+        subtitle: "",
+        description: "",
+        reference: "CRB, pg. xxx.",
+        bullets: [
+            
+        ]
+    },
+    {
         title: "Grab the wheel",
         icon: "cartwheel",
         subtitle: "",
