@@ -135,16 +135,6 @@ data_slow = [
         ]
     },
     {
-        title: "Enter/exit vehicle",
-        icon: "cartwheel",
-        subtitle: "",
-        description: "",
-        reference: "CRB, pg. xxx.",
-        bullets: [
-            
-        ]
-    },
-    {
         title: "Start engine",
         icon: "auto-repair",
         subtitle: "",
