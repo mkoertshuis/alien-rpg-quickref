@@ -19,7 +19,7 @@ data_slow = [
         bullets: [
             "If your CLOSE COMBAT roll is successful, your attack hits and you inflict damage equal to the weapon's Damage rating on your opponent (see page 118).",
             "Damage may be mitigated by armor (page 98).",
-            "STUNTS: For every extra success you roll, choose one of these stunts:\n-You inflict one additional point of damage. You can choose this stunt multiple times.\n-You out-maneuver your enemy and get to exchange your initiative score with them, taking effect next Round.\n-You knock or pull a weapon or other object from your opponent. You choose which.\n-Your opponent falls prone. This can only be used on humanoid opponents.\n-You pin your enemy in a tight clinch. This stunt can only be used on humans and synthetics."
+            "STUNTS: For every extra success you roll, choose one of these stunts:<ul><li>You inflict one additional point of damage. You can choose this stunt multiple times.</li><li>You out-maneuver your enemy and get to exchange your initiative score with them, taking effect next Round.</li><li>You knock or pull a weapon or other object from your opponent. You choose which.</li><li>Your opponent falls prone. This can only be used on humanoid opponents.</li><li>You pin your enemy in a tight clinch. This stunt can only be used on humans and synthetics.</li></ul>"
         ]
     },
     {
@@ -29,7 +29,7 @@ data_slow = [
         description: "",
         reference: "CRB, pg. 95.",
         bullets: [
-            "If your attack hits, you inflict damage equal to the weapon's Damage rating on your opponent. For every extra success you roll, choose one of these stunts:\n-You inflict one additional point of damage. You can choose this stunt multiple times.\n-You pin down your enemy. PCs need to make an immediate Panic Roll. NPCs instead miss their next slow action.\n-You position yourself and get to exchange your initiative score with your enemy, taking effect next Round.\n-Your target drops a weapon or another hand-held object. You choose which.\n-Your opponent falls to the ground or is pushed back, for example through an airlock.",
+            "If your attack hits, you inflict damage equal to the weapon's Damage rating on your opponent. For every extra success you roll, choose one of these stunts:<ul><li>You inflict one additional point of damage. You can choose this stunt multiple times.</li><li>You pin down your enemy. PCs need to make an immediate Panic Roll. NPCs instead miss their next slow action.</li><li>You position yourself and get to exchange your initiative score with your enemy, taking effect next Round.</li><li>Your target drops a weapon or another hand-held object. You choose which.</li><li>Your opponent falls to the ground or is pushed back, for example through an airlock.</ul>",
             "Modifiers: Aimed shot +2, Engaged range -3/+3, Short range 0, Medium range -1, Long range -2, Extreme range -3, Large target +2, Small target -2, Dim light -1, Darkness -2."
         ]
     },
@@ -110,7 +110,7 @@ data_slow = [
             "Other player must make an opposed roll for MANIPULATION.",
             "FAILURE: Your adversary won't listen and won't do what you want. They might start to dislike you, or even attack you if provoked.",
             "SUCCESS: Your adversary must either do what you want or immedeiately attack you physically. Even if your adversary chooses to do what you want, they can still demand something in return.",
-            "STUNTS:\n-Your opponent does what you want without demanding a favor in return.\n-Your opponent does more than you ask for.\n-Your opponent is impressed by you and will try to help you later on in some way.",
+            "STUNTS:<ul><li>Your opponent does what you want without demanding a favor in return.</li><li>Your opponent does more than you ask for.</li><li>Your opponent is impressed by you and will try to help you later on in some way.</li></ul>",
             "NPCs and other PCs can use MANIPULATION on you. If their roll succeeds, you must attack or offer a deal of some kind."
         ]
     },
