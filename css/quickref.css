@@ -134,6 +134,14 @@
     color: indigo;
 }
 
+#section-hazards, #section-hazards .item-icon {
+    background-color: olive;
+    border-color: olive;
+}
+#section-hazards .text {
+    color: olive;
+}
+
 /* ------------------------------------------------------------------------- */
 /* Page container */
 /* ------------------------------------------------------------------------- */

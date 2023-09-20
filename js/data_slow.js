@@ -129,7 +129,7 @@ data_slow = [
         icon: "space-suit",
         subtitle: "Mobility",
         description: "",
-        reference: "CRB, pg. xxx.",
+        reference: "CRB, pg. 107.",
         bullets: [
             
         ]
