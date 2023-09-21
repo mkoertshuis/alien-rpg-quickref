@@ -64,7 +64,7 @@ data_environment = [
     {
         title: "Disease",
         icon: "deathcab",
-        subtitle: "Opposed roll for STAMINA against the Virulance.",
+        subtitle: "Opposed roll against the Virulance.",
         description: "When exposed to a dangerous contagion or infection, you need to roll an opposed roll for STAMINA against the Virulence rating of the disease. This is called a Sickness Roll. A typical disease has a Virulance of 3, but there are diseases with much higher ratings. If you fail the roll, you fall sick, wich has several effects:",
         reference: "CRB, pg. 109.",
         bullets: [
@@ -77,4 +77,47 @@ data_environment = [
             "OTHER DISEASES: The sickness effects described above reflect a common but deadly disease. There are many other diseases that an have unique effects.",
         ]
     },
+    {
+        title: "Radiation",
+        icon: "radioactive",
+        subtitle: "Effects of radiation exposure.",
+        description: "The world of ALIEN contains many places where you will be exposed to hard radiation—on a spacewalk near a dying star, for example, or when you try to repair your ship’s leaking reactor core.",
+        reference: "CRB, pg. 110",
+        bullets: [
+            "RADIATION LEVEL: When you are exposed to radiation, you gain Radiation Points, or Rads, that accumulate in your body. Check off the Rad boxes on your character sheet. The area’s Radiation Level determines how often you get Rads.\
+            <ul>\
+            <li>TWEAK RADIATION: 1 Rad per Shift</li>\
+            <li>STRONG RADIATION: 1 Rad per Turn</li>\
+            <li>EXTREME RADIATION: 1 Rad per Round</li>\
+            </ul>",
+            "EFFECTS: Every time you gain a Radiation Point, you must roll a number of dice equal to your total current number of accumulated Rads. For every success in the roll, you take one point of damage.",
+            "If you are Broken by radiation damage, you must make a Death Roll each time you get another Rad, until you are removed from the radiation hotspot. As long as you remain inside a hotspot, you cannot recover Health in any way.",
+            "RECOVERY: After you leave the irradiated area, you heal one Rad per Shift.",
+            "PERMANENT RADIATION: There is a risk that the radiation will permanently stay in your body. Every time you are about to heal a Rad, roll a Stress Die. If it shows failure, the Rad is not healed but instead becomes permanent. Mark this by filling in the Rad box fully on your character sheet. Permanent radiation can never be healed."
+        ]
+    },
+    {
+        title: "Drowning",
+        icon: "drowning",
+        subtitle: "The dangers of being underwater.",
+        description: "All player characters are assumed to know how to swim. For the purposes of movement, swimming counts as crawling. If, by choice or not, you are underwater, you need to make a STAMINA roll every Round. This roll is not an action and is made during your turn before you perform your actions. If you fail, you suffer one point of damage. If you are Broken when drowning, you must make a Death Roll each Turn, until you die or someone saves you with a MEDICAL AID roll.",
+        reference: "CRB, pg. 110",
+        bullets: [
+            "All player characters are assumed to know how to swim. For the purposes of movement, swimming counts as crawling.",
+            "If you find yourself underwater, whether by choice or not, you must make a STAMINA roll every Round. This roll is not an action and is made during your turn before you perform your actions. If you fail, you suffer one point of damage.",
+            "If you are Broken while drowning, you must make a Death Roll each Turn, until you die or someone saves you with a MEDICAL AID roll."
+        ]
+    },
+    {
+        title: "Suffocation",
+        icon: "crossed-air-flows",
+        subtitle: "The peril of running out of air supply.",
+        description: "If your supply of air runs out (see page 34), you won't have long to live. You'll start breathing in your own exhaled air, building up dangerous levels of carbon dioxide that will eventually kill you. After your air supply runs out, you must make a STAMINA roll every Turn or after every strenuous activity (like a roll for CLOSE COMBAT or MOBILITY). The first roll is unmodified, the second roll gets a –1 modification, the third gets –2, and so on. A failed roll means you drop directly to zero Health and must make a Death Roll every Round until you die or you enter a pressurized area.",
+        reference: "CRB, pg. 110",
+        bullets: [
+            "If your supply of air runs out, you'll start breathing in your own exhaled air, building up dangerous levels of carbon dioxide that will eventually kill you.",
+            "After your air supply runs out, you must make a STAMINA roll every Turn or after every strenuous activity (like a roll for CLOSE COMBAT or MOBILITY). The first roll is unmodified, the second roll gets a –1 modification, the third gets –2, and so on.",
+            "A failed roll means you drop directly to zero Health and must make a Death Roll every Round until you die or you enter a pressurized area."
+        ]
+    },        
 ]
