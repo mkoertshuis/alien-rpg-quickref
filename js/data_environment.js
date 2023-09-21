@@ -81,10 +81,10 @@ data_environment = [
         title: "Radiation",
         icon: "radioactive",
         subtitle: "Effects of radiation exposure.",
-        description: "The world of ALIEN contains many places where you will be exposed to hard radiation—on a spacewalk near a dying star, for example, or when you try to repair your ship’s leaking reactor core.",
+        description: "The world of ALIEN contains many places where you will be exposed to hard radiation—on a spacewalk near a dying star, for example, or when you try to repair your ship's leaking reactor core.",
         reference: "CRB, pg. 110",
         bullets: [
-            "RADIATION LEVEL: When you are exposed to radiation, you gain Radiation Points, or Rads, that accumulate in your body. Check off the Rad boxes on your character sheet. The area’s Radiation Level determines how often you get Rads.\
+            "RADIATION LEVEL: When you are exposed to radiation, you gain Radiation Points, or Rads, that accumulate in your body. Check off the Rad boxes on your character sheet. The area's Radiation Level determines how often you get Rads.\
             <ul>\
             <li>TWEAK RADIATION: 1 Rad per Shift</li>\
             <li>STRONG RADIATION: 1 Rad per Turn</li>\
@@ -100,10 +100,9 @@ data_environment = [
         title: "Drowning",
         icon: "drowning",
         subtitle: "The dangers of being underwater.",
-        description: "All player characters are assumed to know how to swim. For the purposes of movement, swimming counts as crawling. If, by choice or not, you are underwater, you need to make a STAMINA roll every Round. This roll is not an action and is made during your turn before you perform your actions. If you fail, you suffer one point of damage. If you are Broken when drowning, you must make a Death Roll each Turn, until you die or someone saves you with a MEDICAL AID roll.",
+        description: "All player characters are assumed to know how to swim. For the purposes of movement, swimming counts as crawling.",
         reference: "CRB, pg. 110",
         bullets: [
-            "All player characters are assumed to know how to swim. For the purposes of movement, swimming counts as crawling.",
             "If you find yourself underwater, whether by choice or not, you must make a STAMINA roll every Round. This roll is not an action and is made during your turn before you perform your actions. If you fail, you suffer one point of damage.",
             "If you are Broken while drowning, you must make a Death Roll each Turn, until you die or someone saves you with a MEDICAL AID roll."
         ]
@@ -114,10 +113,6 @@ data_environment = [
         subtitle: "The peril of running out of air supply.",
         description: "If your supply of air runs out (see page 34), you won't have long to live. You'll start breathing in your own exhaled air, building up dangerous levels of carbon dioxide that will eventually kill you. After your air supply runs out, you must make a STAMINA roll every Turn or after every strenuous activity (like a roll for CLOSE COMBAT or MOBILITY). The first roll is unmodified, the second roll gets a –1 modification, the third gets –2, and so on. A failed roll means you drop directly to zero Health and must make a Death Roll every Round until you die or you enter a pressurized area.",
         reference: "CRB, pg. 110",
-        bullets: [
-            "If your supply of air runs out, you'll start breathing in your own exhaled air, building up dangerous levels of carbon dioxide that will eventually kill you.",
-            "After your air supply runs out, you must make a STAMINA roll every Turn or after every strenuous activity (like a roll for CLOSE COMBAT or MOBILITY). The first roll is unmodified, the second roll gets a –1 modification, the third gets –2, and so on.",
-            "A failed roll means you drop directly to zero Health and must make a Death Roll every Round until you die or you enter a pressurized area."
-        ]
+        bullets: []
     },        
 ]
