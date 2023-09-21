@@ -38,14 +38,43 @@ data_environment = [
         title: "Explosions",
         icon: "rolling-bomb",
         subtitle: "Measured in Blast Power.",
-        description: "The for of an explosion is measured in Blast Power. For each person within SHORT range of the blast when the detonation occurs, roll a number of Base Dice equal to the Blast Power."
+        description: "The for of an explosion is measured in Blast Power. For each person within SHORT range of the blast when the detonation occurs, roll a number of Base Dice equal to the Blast Power.",
+        reference: "CRB, pg. 108.",
+        bullets: [
+            "For every success rolled, the victim suffers one point of damage. The roll cannot be pushed.",
+            "Victims at ENGAGED range from the detonation suffer one extra point of damage.",
+            "Powerful charges, with a Blast Power of 7 or more, can harm people even at MEDIUM range. The Blast Power is then reduced by 6."
+        ]
     },
     {
         title: "Fire",
         icon: "flame",
+        subtitle: "Roll Base Dice equal to the Intensity.",
+        description: "A fire is measured in Intensity. A typical fire has Intensity 8. When exposed to fire, roll a number of Base Dice equal to the Intensity.",
+        reference: "CRB, pg. 108.",
+        bullets: [
+            "For every success rolled, you suffer one point of damage. Armor can protect you.",
+            "If you take damage, you catch fire and continue to burn and suffer another attack at the start of each new Round.",
+            "The Intensity increases by one each Round.",
+            "As soon as a fire attack inflicts no damage, the fire goes out by itself.",
+            "You, or a friend at ENGAGED range, can put out the fire with a successful MOBILITY roll (slow action).",
+            "If you are Broken by fire damage, or suffer fire damage when already Broken, you must make a Death Roll every Round until you die or you are saved by a MEDICAL AID roll.",
+        ]
     },
     {
         title: "Disease",
         icon: "deathcab",
+        subtitle: "Opposed roll for STAMINA against the Virulance.",
+        description: "When exposed to a dangerous contagion or infection, you need to roll an opposed roll for STAMINA against the Virulence rating of the disease. This is called a Sickness Roll. A typical disease has a Virulance of 3, but there are diseases with much higher ratings. If you fail the roll, you fall sick, wich has several effects:",
+        reference: "CRB, pg. 109.",
+        bullets: [
+            "One Shift after infection the disease breaks out, at which time you suffer one point of damage.",
+            "You can't recover Health while sick.",
+            "Make another Sickness Roll at the start of each Shift. Each failed roll means you suffer another point of damage.",
+            "If you are Broken while sick, you must make another Sickness Roll after every Shift, failure means death.",
+            "As soon as you succeed at a Sickness Roll, you are no longer sick. Stop roling Sickness Rolls and recover your Health normally.",
+            "MEDICAL AID: If someone cares for you while you are sick, this person can roll your Sickness Rolls instead of you. The healer rolls for MEDICAL AID against the Virulence of the disease.",
+            "OTHER DISEASES: The sickness effects described above reflect a common but deadly disease. There are many other diseases that an have unique effects.",
+        ]
     },
 ]
