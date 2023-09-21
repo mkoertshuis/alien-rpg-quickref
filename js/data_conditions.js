@@ -39,7 +39,7 @@ data_conditions = [
         title: "Freezing",
         icon: "snowflake-2",
         subtitle: "With not enough clothes or shelter.",
-        description: "In an environment without enough clothes or shelter, you cecome Freezing. Being Freezing has several effects:",
+        description: "In an environment without enough clothes or shelter, you become Freezing. Being Freezing has several effects:",
         reference: "CRB, pg. 107.",
         bullets: [
             "You cannot recover Health or relieve Stress.",
