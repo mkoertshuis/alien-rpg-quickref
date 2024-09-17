@@ -61,6 +61,7 @@ window.onload = function() {
     fill_section(data_fast, "basic-fast", "Fast Action");
     fill_section(data_conditions, "hazards-conditions", "Conditions");
     fill_section(data_environment, "hazards-environment", "Environment");
+    fill_section(data_tables, "tables-content", "Tables")
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;

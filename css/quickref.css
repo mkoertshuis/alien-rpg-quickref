@@ -142,6 +142,15 @@
     color: olive;
 }
 
+#section-tables, #section-tables .item-icon {
+    background-color: teal;
+    border-color: teal;
+}
+#section-tables .text {
+    color: teal;
+}
+
+
 /* ------------------------------------------------------------------------- */
 /* Page container */
 /* ------------------------------------------------------------------------- */
@@ -176,6 +185,38 @@ hr {
 
 p:first-child {
     margin-top: 1em;
+}
+
+table {
+    border: 8px solid teal;
+    border-spacing: 0;
+    border-radius: 8px;
+    margin-top: 0;
+    background-color: white;
+    font-size: inherit;
+    text-align: left;
+}
+
+th, td {
+    border-right: 2px solid teal; /* Vertical teal lines between columns */
+    padding: 8px;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+td {
+    border-bottom: 2px solid teal; /* Horizontal lines between rows */
+}
+
+tr:last-child td {
+    border-bottom: none; /* Removes the bottom border from the last row */
+}
+
+th:last-child, td:last-child {
+    border-right: none; /* Removes the border on the last column */
 }
 
 /* ------------------------------------------------------------------------- */
