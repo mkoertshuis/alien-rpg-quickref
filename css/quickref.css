@@ -188,6 +188,9 @@ p:first-child {
 }
 
 table {
+    display: block;
+    overflow-x: auto;
+    white-space: normal;
     border: 8px solid teal;
     border-spacing: 0;
     border-radius: 8px;
@@ -195,6 +198,11 @@ table {
     background-color: white;
     font-size: inherit;
     text-align: left;
+}
+
+table tbody {
+    display: table;
+    width: 100%;
 }
 
 th, td {
